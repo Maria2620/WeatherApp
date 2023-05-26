@@ -11,7 +11,7 @@ body{
 }
 
 .container{
-    margin-top: 60px;
+    margin-top: -27px;
     width: 30%;
     text-align: center;
     border-radius: 27px;
@@ -26,17 +26,19 @@ body{
 #result{
   transition: 0.1s;
   cursor: pointer;
+  
 }
 #result:hover{
   background: rgb(85,77,222);
   background: linear-gradient(90deg, rgb(7, 76, 108) 0%, rgb(133, 186, 198) 100%);
-  box-shadow: 5px 10px 8px 10px #fffefec7;
+  border-radius: 15px;
+  box-shadow: 5px 10px 8px 10px #fffefe72;
 }
 
 
 .card1{
   margin: auto;
-  margin-top: -33px;
+  margin-top: -19px;
 }
 
 .card11{
@@ -73,5 +75,6 @@ img{
     .container{
        width: 80%;
     }
+   
    
 } 
