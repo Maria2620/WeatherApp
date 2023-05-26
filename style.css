@@ -1,0 +1,76 @@
+ html{
+    width:100%;
+    height: 100%;
+}
+body{
+    background-image:url("./Images/thunderstorm-3625405_1280.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 80%;
+}
+
+.container{
+    margin-top: 150px;
+    width: 30%;
+    text-align: center;
+    border-radius: 27px;
+}
+.input{
+    width: 50%;
+}
+.form-control{
+    background-color: rgba(253, 237, 237, 0.532);
+}
+
+#result{
+  transition: 0.1s;
+  cursor: pointer;
+}
+#result:hover{
+  background: rgb(85,77,222);
+  background: linear-gradient(90deg, rgb(7, 76, 108) 0%, rgb(133, 186, 198) 100%);
+  box-shadow: 5px 10px 8px 10px #fffefec7;
+}
+
+
+.card1{
+  margin: auto;
+}
+
+.card11{
+    background-color: rgb(252 246 246 / 62%); 
+    border-radius: 15px; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+    width: 73%; 
+    margin-top: 50px;
+}
+p{
+    font-size: 20px;
+}
+img{
+    width: 13%;
+    height: 21%;
+}
+
+.p1{
+    font-size: 18px;
+}
+
+#icon1:hover{
+  filter:grayscale(1);
+  transition-duration: 1s;
+}
+
+@media (max-width:900px) {
+ .container{
+    width: 50%;
+ }
+
+}
+@media (max-width:500px) {
+    .container{
+       width: 80%;
+    }
+   
+} 
